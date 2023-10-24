@@ -1,0 +1,64 @@
+/* Font color: #808080
+Menu bar color: #006600
+Button color: #ffffff */
+
+/* text color for major text  */
+body {
+    color:#808080;
+}
+
+.closeModalText
+{
+    color:#808080;;
+}
+
+/* green modal-menu bars */
+.modalBar {
+    background-color: #006600; 
+    height: 10px;
+}
+/* HR bar color changer */
+hr {
+    color:rgb(30, 77, 231);
+}
+
+/* container color change */
+.background1 {
+    background-color: #dddddd;
+}
+
+/* button on the contact us need to be moved right */
+.custom-btn {
+    float:right;
+}
+
+/* forced text color  */
+ .greyText {
+    color:#808080;
+}
+
+.buttonTextBigger{
+    font-size: 1.8rem;
+}
+
+/* Forced the contact us button size to be bigger */
+.biggerBtn{
+    width: 180px; 
+    height: 50px;
+}
+
+
+/* force nav items to bigger font slightly  */
+ .navbar-nav .nav-item .nav-link {
+    font-size: 1.2rem;
+}
+
+
+/* force image to be correct i couldn't figure how to do it bootstrap */
+.center-image{
+   display: flex; 
+   flex-direction: column; 
+   align-items: center; 
+   justify-content: center;
+   max-height: 320px; 
+   max-width: auto;}
