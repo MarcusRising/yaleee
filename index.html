@@ -12,7 +12,7 @@
 
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand d-none d-md-block" href="#">Yalee School of Ark</a>
             <a class="navbar-brand d-md-none image-fluid" href="#"><img src="./img/Yale_School_of_Art.png"
@@ -42,10 +42,10 @@
                         <hr class="bg-info">
                     </h5>
                 </div>
-                <div class="col-md-3 d-none d-md-block mx-auto">
+                <div class="col-md-3 d-none pt-3 d-md-block mx-auto">
                     <div class="text-center">
                         <img src="./img/Yale_School_of_Art.png" alt="Yale school Crest" class="img-fluid"
-                            style="width: 20vh; height: 20vh" alt="">
+                            style="width: 10vh; height: 10vh" alt="">
                     </div>
                 </div>
                 <div class="col">
@@ -61,45 +61,49 @@
 
 
     <!--Art Carousel-->
-    <div id="ArtCarosel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#ArtCarosel" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#ArtCarosel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#ArtCarosel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="container-fluid">
+        <div id="Artcarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Artcarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#Artcarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#Artcarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/school_front.jpg" class="d-block img-fluid mx-auto"
+                        alt="school front"><!--active image-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Welcome to Yalee School of Ark</h1>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/gallery1.jpeg" class="d-block img-fluid w-100"
+                        alt="gallery of art"><!--second image-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1></h1>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/gallery_2.jpg" class="d-block w-100" alt="Gallery 2"><!--third image-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1></h1>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Artcarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Artcarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./img/school_front.jpg" class="d-block w-100" alt="school front"><!--active image-->
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Welcome to Yalee School of Ark</h1>
-                    <p></p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./img/gallery1.jpeg" class="d-block w-100" alt="gallery of art"><!--second image-->
-                <div class="carousel-caption d-none d-md-block">
-                    <h1></h1>
-                    <p></p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./img/gallery_2.jpg" class="d-block w-100" alt="Gallery 2"><!--third image-->
-                <div class="carousel-caption d-none d-md-block">
-                    <h1></h1>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#droneCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#droneCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div><!--droneCarousel end-->
+    </div><!--Artcarousel end-->
 
 
     <!-- scripts -->
